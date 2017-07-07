@@ -44,4 +44,6 @@ reports/
 secureassets/
 siteconfig/
 blog-sortable-categories/
-
+activedirectory/
+multivaluefield/
+queuedjobs/

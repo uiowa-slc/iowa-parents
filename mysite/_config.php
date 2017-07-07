@@ -17,7 +17,8 @@ FulltextSearchable::enable();
 if (class_exists('SiteTree')) {SiteTree::enable_nested_urls();
 }
 
-if (Director::isLive()) {
+Authenticator::set_default_authenticator('SAMLAuthenticator');
+if(Director::isLive()) {
 	Director::forceSSL();
 }
 Requirements::set_force_js_to_bottom(true);
