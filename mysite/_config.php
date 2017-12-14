@@ -16,7 +16,7 @@ FulltextSearchable::enable();
 // Enable nested URLs for this site (e.g. page/sub-page/)
 if (class_exists('SiteTree')) {SiteTree::enable_nested_urls();
 }
-
+Authenticator::unregister('MemberAuthenticator');
 Authenticator::set_default_authenticator('SAMLAuthenticator');
 if(Director::isLive()) {
 	Director::forceSSL();

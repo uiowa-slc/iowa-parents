@@ -17,6 +17,10 @@
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project-installer"
       
         },
+        {  
+         "type":"vcs",
+         "url":"https://github.com/StudentLifeMarketingAndDesign/division-analytics"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
