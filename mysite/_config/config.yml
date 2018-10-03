@@ -1,13 +1,5 @@
 ---
-Name: mysite
-After:
-  - 'framework/*'
-  - 'cms/*'
+Name: myproject
 ---
-Page:
-  extensions:
-    - DivisionPage
-Page_Controller:
-  extensions:
-    - DivisionPage_Controller
-
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: mysite
