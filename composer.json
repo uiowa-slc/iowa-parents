@@ -15,6 +15,7 @@
             "4.x-dev": "4.2.x-dev",
             "dev-master": "5.x-dev"
         },
+        "resources-dir": "_resources",
         "project-files-installed": [
             "app/.htaccess",
             "app/_config.php",
@@ -36,7 +37,8 @@
         ],
         "expose": [
             "themes/division-subtheme/dist",
-            "themes/division-subtheme/css"
+            "themes/division-subtheme/css",
+            "mysite/cms_icons"
         ]
     },
     "repositories": [
@@ -46,15 +48,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
         },
         {
             "type": "vcs",
@@ -70,23 +64,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/rss-display"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-blog"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-flickr"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed"
         },
         {
             "type": "vcs",
